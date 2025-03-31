@@ -1,0 +1,25 @@
+{
+  "name": "playwright-metamask-bot",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "UnBergant",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsx source/index.ts",
+    "format": "prettier . --write"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.13.14",
+    "playwright": "^1.51.1",
+    "prettier": "3.5.3",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
