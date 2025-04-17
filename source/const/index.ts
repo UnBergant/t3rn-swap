@@ -2,9 +2,6 @@ import dotenv from 'dotenv';
 dotenv.config();
 const CUSTOM_RPC = process.env.CUSTOM_RPC;
 
-// Теперь можно использовать:
-console.log(process.env.API_KEY); // 12345
-
 const TIMEOUT_INTERVAL = 500;
 const TEST_FAIL_TIMEOUT = 35000;
 enum MODE {
