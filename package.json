@@ -1,0 +1,37 @@
+{
+  "name": "playwright-metamask-bot",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "UnBergant",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsx source/index.ts",
+    "start2": "npx tsx source/index.ts",
+    "start3": "npx tsx source/index.ts",
+    "start4": "npx tsx source/index.ts",
+    "start5": "npx tsx source/index.ts",
+    "start6": "npx tsx source/index.ts",
+    "start7": "npx tsx source/index.ts",
+    "start8": "npx tsx source/index.ts",
+    "start9": "npx tsx source/index.ts",
+    "start10": "npx tsx source/index.ts",
+    "start11": "npx tsx source/index.ts",
+    "start12": "npx tsx source/index.ts",
+    "parallel": "npx concurrently \"npm run start\" \"npm run start2\" \"npm run start3\" \"npm run start4\"",
+    "format": "prettier . --write"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.13.14",
+    "playwright": "^1.51.1",
+    "prettier": "3.5.3",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
